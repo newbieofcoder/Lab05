@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="@color/black"
+        android:title="Nhắn tin"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/baseline_map_24"
+        android:iconTint="@color/black"
+        android:title="Bản đồ"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/collection"
+        android:icon="@drawable/baseline_photo_library_24"
+        android:iconTint="@color/black"
+        android:title="Hình ảnh"
+        app:showAsAction="ifRoom" />
+</menu>
